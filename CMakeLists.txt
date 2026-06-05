@@ -1,8 +1,12 @@
 cmake_minimum_required(VERSION 3.29)
-project(main)
+
+project(MiniMemoryAllocator)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(main main.cpp
+include_directories(include)
+
+add_executable(MiniMemoryAllocator
         src/main.cpp
-        src/main.cpp)
+        src/MemoryBlock.cpp
+)
