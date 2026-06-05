@@ -32,6 +32,8 @@ public:
 
     void SetIsFree(bool val);
 
+    void print() const;
+
 
 };
 
