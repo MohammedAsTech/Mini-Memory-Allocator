@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: main
+# Project: MiniMemoryAllocator
 # Configurations: Debug
 # =============================================================================
 
@@ -52,12 +52,14 @@ build cmake_object_order_depends_target_MiniMemoryAllocator: phony || .
 build CMakeFiles/MiniMemoryAllocator.dir/src/main.cpp.obj: CXX_COMPILER__MiniMemoryAllocator_unscanned_Debug C$:/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/src/main.cpp || cmake_object_order_depends_target_MiniMemoryAllocator
   DEP_FILE = CMakeFiles\MiniMemoryAllocator.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/include
   OBJECT_DIR = CMakeFiles\MiniMemoryAllocator.dir
   OBJECT_FILE_DIR = CMakeFiles\MiniMemoryAllocator.dir\src
 
 build CMakeFiles/MiniMemoryAllocator.dir/src/MemoryBlock.cpp.obj: CXX_COMPILER__MiniMemoryAllocator_unscanned_Debug C$:/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/src/MemoryBlock.cpp || cmake_object_order_depends_target_MiniMemoryAllocator
   DEP_FILE = CMakeFiles\MiniMemoryAllocator.dir\src\MemoryBlock.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/include
   OBJECT_DIR = CMakeFiles\MiniMemoryAllocator.dir
   OBJECT_FILE_DIR = CMakeFiles\MiniMemoryAllocator.dir\src
 
