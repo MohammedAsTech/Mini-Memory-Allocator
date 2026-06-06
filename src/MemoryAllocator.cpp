@@ -4,6 +4,7 @@
 #include "MemoryAllocator.h"
 
 #include <stdexcept>
+using namespace std;
 
 void MemoryAllocator::init(int size) {
     if(size <= 0)
@@ -43,4 +44,42 @@ void MemoryAllocator::allocate(int size) {
 
     throw std::runtime_error("Not enough memory");
 }
+void MemoryAllocator::free(int id) {
+    for(auto it = heap.begin();it != heap.end();++it) {
+        if(it->getId() == id) {
+            if(it->getIsFree())
+                throw invalid_argument("id already free!");
+            it->setId(-1);
+            it->SetIsFree(true);
+            mergeIfNeeded(it);
+            return;
+        }
+    }
+    throw invalid_argument("id does not exist!");
+}
+void MemoryAllocator::mergeIfNeeded(std::list<MemoryBlock>::iterator curr) {
+    if (curr == heap.end() || !curr->getIsFree()) {
+        return;
+    }
 
+    // Merge with previous free block
+    if (curr != heap.begin()) {
+        auto prev = std::prev(curr);
+
+        if (prev->getIsFree()) {
+            prev->setSize(prev->getSize() + curr->getSize());
+
+            heap.erase(curr);
+            curr = prev;
+        }
+    }
+
+    // Merge with next free block
+    auto next = std::next(curr);
+
+    if (next != heap.end() && next->getIsFree()) {
+        curr->setSize(curr->getSize() + next->getSize());
+
+        heap.erase(next);
+    }
+}
