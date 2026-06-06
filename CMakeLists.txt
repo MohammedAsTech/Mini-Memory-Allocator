@@ -9,4 +9,6 @@ include_directories(include)
 add_executable(MiniMemoryAllocator
         src/main.cpp
         src/MemoryBlock.cpp
+        include/MemoryAllocator.h
+        src/MemoryAllocator.cpp
 )
