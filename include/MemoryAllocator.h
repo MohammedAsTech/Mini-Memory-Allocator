@@ -16,6 +16,8 @@ public:
     MemoryAllocator():nextIndex(1){}
 
     void init(int size);
+
+    void allocate(int size);
 };
 
 #endif //MEMORYALLOCATOR_H
