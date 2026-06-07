@@ -24,6 +24,10 @@ public:
     void allocate(int size);
 
     void free(int id);
+
+    list<MemoryBlock>& getHeap(){return heap;}
+
+    const list<MemoryBlock>& getHeap() const{return heap;}
 };
 
 #endif //MEMORYALLOCATOR_H

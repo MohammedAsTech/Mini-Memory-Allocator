@@ -13,7 +13,7 @@ class Command {
     string key;
 public:
     Command(const string& key):key(key) {};
-    virtual ~Command();
+    virtual ~Command() = default;
     virtual void execute(MemoryAllocator& MA) = 0;
 };
 class InitCommand : public Command {
@@ -25,7 +25,7 @@ public:
 class FreeCommand : public Command {
     int id;
 public:
-    FreeCommand(int size):Command("FREE"),id(id) {};
+    FreeCommand(int id):Command("FREE"),id(id) {};
     void execute(MemoryAllocator &MA) override;
 };
 class AllocCommand : public Command {
@@ -37,13 +37,13 @@ public:
 class PrintCommand : public Command {
 
 public:
-    PrintCommand(int size):Command("PRINT"){};
+    PrintCommand():Command("PRINT"){};
     void execute(MemoryAllocator &MA) override;
 };
 class StatsCommand : public Command {
 
 public:
-    StatsCommand(int size):Command("STATS"){};
+    StatsCommand():Command("STATS"){};
     void execute(MemoryAllocator &MA) override;
 };
 #endif //COMMAND_H
