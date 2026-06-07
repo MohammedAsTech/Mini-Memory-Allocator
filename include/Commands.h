@@ -46,4 +46,13 @@ public:
     StatsCommand():Command("STATS"){};
     void execute(MemoryAllocator &MA) override;
 };
+class StrategyCommand : public Command {
+    std::string strategyName;
+
+public:
+    StrategyCommand(const std::string& strategyName)
+        : Command("STRATEGY"), strategyName(strategyName) {}
+
+    void execute(MemoryAllocator& MA) override;
+};
 #endif //COMMAND_H

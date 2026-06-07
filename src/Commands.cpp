@@ -3,7 +3,8 @@
 //
 #include "Commands.h"
 #include <iostream>
-
+#include "AllocationStrategy.h"
+#include <memory>
 void InitCommand::execute(MemoryAllocator& MA) {
     MA.init(size);
 }
@@ -26,5 +27,16 @@ void PrintCommand::execute(MemoryAllocator& MA) {
 }
 
 void StatsCommand::execute(MemoryAllocator& MA) {
-    //MA.stats();
+    MA.stats();
+}
+void StrategyCommand::execute(MemoryAllocator& MA) {
+    if (strategyName == "FIRST_FIT") {
+        MA.setStrategy(std::make_unique<FirstFitStrategy>());
+    }
+    else if (strategyName == "BEST_FIT") {
+        MA.setStrategy(std::make_unique<BestFitStrategy>());
+    }
+    else {
+        throw std::invalid_argument("Unknown strategy");
+    }
 }

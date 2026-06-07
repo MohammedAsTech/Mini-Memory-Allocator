@@ -44,4 +44,8 @@ public:
     std::unique_ptr<Command>
     create(std::stringstream& ss) const override;
 };
+class StrategyCommandFactory : public CommandFactory {
+public:
+    std::unique_ptr<Command> create(std::stringstream& ss) const override;
+};
 #endif //COMMANDFACTORIES_H

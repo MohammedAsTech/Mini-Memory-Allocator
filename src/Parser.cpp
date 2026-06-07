@@ -10,6 +10,7 @@ Parser::Parser() {
     factories["FREE"]  = std::make_unique<FreeCommandFactory>();
     factories["PRINT"] = std::make_unique<PrintCommandFactory>();
     factories["STATS"] = std::make_unique<StatsCommandFactory>();
+    factories["STRATEGY"] = std::make_unique<StrategyCommandFactory>();
 }
 
 unique_ptr<Command> Parser::parse(const string &line) const {

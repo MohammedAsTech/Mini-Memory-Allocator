@@ -2,8 +2,9 @@
 // Created by moham on 06/06/2026.
 //
 #include "MemoryAllocator.h"
-
+#include<iostream>
 #include <stdexcept>
+#include "Statistics.h"
 using namespace std;
 
 void MemoryAllocator::init(int size) {
@@ -60,4 +61,8 @@ void MemoryAllocator::mergeIfNeeded(std::list<MemoryBlock>::iterator curr) {
 }
 void MemoryAllocator::setStrategy(std::unique_ptr<AllocationStrategy> newStrategy) {
     stra = std::move(newStrategy);
+}
+
+void MemoryAllocator::stats() const {
+    Statistics::printStats(heap, totalfree);
 }

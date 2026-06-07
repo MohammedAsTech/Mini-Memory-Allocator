@@ -80,3 +80,22 @@ StatsCommandFactory::create(std::stringstream& ss) const {
 
     return make_unique<StatsCommand>();
 }
+std::unique_ptr<Command>
+StrategyCommandFactory::create(std::stringstream& ss) const {
+    std::string strategyName;
+
+    if (!(ss >> strategyName)) {
+        throw std::invalid_argument("STRATEGY requires strategy name");
+    }
+
+    std::string extra;
+    if (ss >> extra) {
+        throw std::invalid_argument("STRATEGY takes exactly one argument");
+    }
+
+    if (strategyName != "FIRST_FIT" && strategyName != "BEST_FIT") {
+        throw std::invalid_argument("Unknown strategy");
+    }
+
+    return std::make_unique<StrategyCommand>(strategyName);
+}

@@ -37,6 +37,8 @@ public:
 
     void setStrategy(std::unique_ptr<AllocationStrategy> newStrategy);
 
+    void stats() const;
+
 
 };
 
