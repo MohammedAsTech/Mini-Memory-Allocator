@@ -77,8 +77,15 @@ build CMakeFiles/MiniMemoryAllocator.dir/src/Statistics.cpp.obj: CXX_COMPILER__M
   OBJECT_DIR = CMakeFiles\MiniMemoryAllocator.dir
   OBJECT_FILE_DIR = CMakeFiles\MiniMemoryAllocator.dir\src
 
-build CMakeFiles/MiniMemoryAllocator.dir/src/Command.cpp.obj: CXX_COMPILER__MiniMemoryAllocator_unscanned_Debug C$:/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/src/Command.cpp || cmake_object_order_depends_target_MiniMemoryAllocator
-  DEP_FILE = CMakeFiles\MiniMemoryAllocator.dir\src\Command.cpp.obj.d
+build CMakeFiles/MiniMemoryAllocator.dir/src/Commands.cpp.obj: CXX_COMPILER__MiniMemoryAllocator_unscanned_Debug C$:/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/src/Commands.cpp || cmake_object_order_depends_target_MiniMemoryAllocator
+  DEP_FILE = CMakeFiles\MiniMemoryAllocator.dir\src\Commands.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/include
+  OBJECT_DIR = CMakeFiles\MiniMemoryAllocator.dir
+  OBJECT_FILE_DIR = CMakeFiles\MiniMemoryAllocator.dir\src
+
+build CMakeFiles/MiniMemoryAllocator.dir/src/CommandFactories.cpp.obj: CXX_COMPILER__MiniMemoryAllocator_unscanned_Debug C$:/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/src/CommandFactories.cpp || cmake_object_order_depends_target_MiniMemoryAllocator
+  DEP_FILE = CMakeFiles\MiniMemoryAllocator.dir\src\CommandFactories.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/include
   OBJECT_DIR = CMakeFiles\MiniMemoryAllocator.dir
@@ -92,7 +99,7 @@ build CMakeFiles/MiniMemoryAllocator.dir/src/Command.cpp.obj: CXX_COMPILER__Mini
 #############################################
 # Link the executable MiniMemoryAllocator.exe
 
-build MiniMemoryAllocator.exe: CXX_EXECUTABLE_LINKER__MiniMemoryAllocator_Debug CMakeFiles/MiniMemoryAllocator.dir/src/main.cpp.obj CMakeFiles/MiniMemoryAllocator.dir/src/MemoryBlock.cpp.obj CMakeFiles/MiniMemoryAllocator.dir/src/MemoryAllocator.cpp.obj CMakeFiles/MiniMemoryAllocator.dir/src/Statistics.cpp.obj CMakeFiles/MiniMemoryAllocator.dir/src/Command.cpp.obj
+build MiniMemoryAllocator.exe: CXX_EXECUTABLE_LINKER__MiniMemoryAllocator_Debug CMakeFiles/MiniMemoryAllocator.dir/src/main.cpp.obj CMakeFiles/MiniMemoryAllocator.dir/src/MemoryBlock.cpp.obj CMakeFiles/MiniMemoryAllocator.dir/src/MemoryAllocator.cpp.obj CMakeFiles/MiniMemoryAllocator.dir/src/Statistics.cpp.obj CMakeFiles/MiniMemoryAllocator.dir/src/Commands.cpp.obj CMakeFiles/MiniMemoryAllocator.dir/src/CommandFactories.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MiniMemoryAllocator.dir

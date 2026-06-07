@@ -15,4 +15,6 @@ add_executable(MiniMemoryAllocator
         src/Statistics.cpp
         include/Commands.h
         src/Commands.cpp
+        include/CommandFactories.h
+        src/CommandFactories.cpp
 )
