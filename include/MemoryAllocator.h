@@ -17,11 +17,13 @@ private:
     list<MemoryBlock> heap;
     int nextIndex;
     void mergeIfNeeded(std::list<MemoryBlock>::iterator curr);
-    int totalfree;
     unique_ptr<AllocationStrategy> stra;
-
+    int totalfree;
+    friend class FirstFitStrategy;
+    friend class BestFitStrategy;
 public:
-    MemoryAllocator():nextIndex(1),totalfree(0){}
+
+    MemoryAllocator():nextIndex(1),totalfree(0),stra(make_unique<FirstFitStrategy>()){}
 
     void init(int size);
 
@@ -32,6 +34,10 @@ public:
     list<MemoryBlock>& getHeap(){return heap;}
 
     const list<MemoryBlock>& getHeap() const{return heap;}
+
+    void setStrategy(std::unique_ptr<AllocationStrategy> newStrategy);
+
+
 };
 
 #endif //MEMORYALLOCATOR_H
