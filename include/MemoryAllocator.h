@@ -14,9 +14,10 @@ private:
     list<MemoryBlock> heap;
     int nextIndex;
     void mergeIfNeeded(std::list<MemoryBlock>::iterator curr);
+    int totalfree;
 
 public:
-    MemoryAllocator():nextIndex(1){}
+    MemoryAllocator():nextIndex(1),totalfree(0){}
 
     void init(int size);
 

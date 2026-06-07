@@ -11,6 +11,7 @@ void MemoryAllocator::init(int size) {
         throw invalid_argument("size must be positive");
     heap.clear();
     nextIndex = 1;
+    totalfree = size;
     heap.emplace_back(-1,0,size,true);
     // emplace_back() creates an object directly inside the list without creating a temporary object first.
 }
@@ -26,6 +27,7 @@ void MemoryAllocator::allocate(int size) {
             if (it->getSize() == size) {
                 it->SetIsFree(false);
                 it->setId(nextIndex++);
+                totalfree -= size;
                 return;
             }
 
@@ -37,7 +39,7 @@ void MemoryAllocator::allocate(int size) {
 
             it->setStart(oldStart + size);
             it->setSize(it->getSize() - size);
-
+            totalfree -= size;
             return;
         }
     }
@@ -51,6 +53,7 @@ void MemoryAllocator::free(int id) {
                 throw invalid_argument("id already free!");
             it->setId(-1);
             it->SetIsFree(true);
+            totalfree += it->getSize();
             mergeIfNeeded(it);
             return;
         }

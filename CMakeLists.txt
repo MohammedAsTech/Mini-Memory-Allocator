@@ -11,4 +11,6 @@ add_executable(MiniMemoryAllocator
         src/MemoryBlock.cpp
         include/MemoryAllocator.h
         src/MemoryAllocator.cpp
+        include/Statistics.h
+        src/Statistics.cpp
 )
