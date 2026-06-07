@@ -19,4 +19,5 @@ add_executable(MiniMemoryAllocator
         src/CommandFactories.cpp
         include/Parser.h
         src/Parser.cpp
+        include/AllocationStrategy.h
 )

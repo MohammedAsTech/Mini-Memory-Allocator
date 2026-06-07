@@ -5,7 +5,10 @@
 #ifndef MEMORYALLOCATOR_H
 #define MEMORYALLOCATOR_H
 #include <list>
+#include <memory>
 #include <MemoryBlock.h>
+
+#include "AllocationStrategy.h"
 using namespace std;
 
 
@@ -15,6 +18,7 @@ private:
     int nextIndex;
     void mergeIfNeeded(std::list<MemoryBlock>::iterator curr);
     int totalfree;
+    unique_ptr<AllocationStrategy> stra;
 
 public:
     MemoryAllocator():nextIndex(1),totalfree(0){}

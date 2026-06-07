@@ -126,7 +126,8 @@
 				4,
 				6,
 				8,
-				10
+				10,
+				12
 			]
 		}
 	],
@@ -198,6 +199,11 @@
 			"compileGroupIndex" : 0,
 			"path" : "src/Parser.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/AllocationStrategy.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
