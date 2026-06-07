@@ -1,0 +1,4 @@
+[id=1 start=0 size=3] [id=2 start=3 size=5] [free start=8 size=70] 
+Total free: 70 Largest free: 70 Fragmentation: 0%
+[id=1 start=0 size=3] [free start=3 size=75] 
+Total free: 75 Largest free: 75 Fragmentation: 0%

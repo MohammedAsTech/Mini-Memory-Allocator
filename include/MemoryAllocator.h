@@ -23,7 +23,10 @@ private:
     friend class BestFitStrategy;
 public:
 
-    MemoryAllocator():nextIndex(1),totalfree(0),stra(make_unique<FirstFitStrategy>()){}
+    MemoryAllocator()
+    : nextIndex(1),
+      stra(make_unique<FirstFitStrategy>()),
+      totalfree(0) {}
 
     void init(int size);
 

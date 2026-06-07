@@ -1,0 +1,3 @@
+Total free: 125 Largest free: 115 Fragmentation: 8%
+[id=1 start=0 size=3] [id=8 start=3 size=2] [free start=5 size=2] [id=3 start=7 size=5] [id=9 start=12 size=4] [free start=16 size=2] [id=5 start=18 size=7] [free start=25 size=8] [id=7 start=33 size=9] [free start=42 size=115] 
+Total free: 127 Largest free: 115 Fragmentation: 9.44882%

@@ -1,0 +1,18 @@
+Mini Memory Allocator - 300 Shell Input Test Summary
+======================================================================
+Total tests: 300
+Passed:      300
+Failed:      0
+ASAN/UBSAN/leak smoke check: PASS
+Details file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/details.txt
+Cases folder: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases
+ASAN stdout:  /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/logs/asan_stdout.log
+ASAN stderr:  /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/logs/asan_stderr.log
+
+Category breakdown:
+  first-fit/basic           60/ 60 passed
+  long/mixed                30/ 30 passed
+  merge/fragmentation       60/ 60 passed
+  parser/errors             40/ 40 passed
+  reinit/id-reset           50/ 50 passed
+  strategy/best-fit         60/ 60 passed

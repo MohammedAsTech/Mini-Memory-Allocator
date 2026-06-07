@@ -1,33 +1,27 @@
 #include <iostream>
 #include <string>
 
+#include "Parser.h"
+#include "MemoryAllocator.h"
+
 int main() {
-    bool initialized = false;
-    std::string input;
+    MemoryAllocator allocator;
+    Parser parser;
 
-    while (std::getline(std::cin, input)) {
+    std::string line;
 
-        if (input == "EXIT") {
-            std::cout << "Goodbye" << std::endl;
-            break;
-        }
-
-        else if (input == "INIT") {
-            initialized = true;
-            std::cout << "Heap initialized" << std::endl;
-        }
-
-        else if (input == "PRINT") {
-            if (!initialized) {
-                std::cout << "Heap not initialized" << std::endl;
+    while (std::getline(std::cin, line)) {
+        try {
+            if (line == "EXIT") {
+                std::cout << "Goodbye" << std::endl;
+                break;
             }
-            else {
-                std::cout << "Heap contents" << std::endl;
-            }
-        }
 
-        else {
-            std::cout << "Unknown command" << std::endl;
+            auto command = parser.parse(line);
+            command->execute(allocator);
+        }
+        catch (const std::exception& e) {
+            std::cout << e.what() << std::endl;
         }
     }
 

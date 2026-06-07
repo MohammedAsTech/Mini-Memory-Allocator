@@ -1,0 +1,2 @@
+[id=1 start=0 size=10] [id=4 start=10 size=2] [free start=12 size=5] [id=3 start=17 size=10] [free start=27 size=65] 
+Total free: 70 Largest free: 65 Fragmentation: 7.14286%

@@ -1,0 +1,1503 @@
+Mini Memory Allocator - 300 Test Details
+======================================================================
+
+[PASS] 001 - empty-line (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_001_empty-line.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_001_empty-line.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_001_empty-line.actual
+
+[PASS] 002 - spaces-only (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_002_spaces-only.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_002_spaces-only.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_002_spaces-only.actual
+
+[PASS] 003 - unknown (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_003_unknown.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_003_unknown.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_003_unknown.actual
+
+[PASS] 004 - lowercase-init (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_004_lowercase-init.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_004_lowercase-init.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_004_lowercase-init.actual
+
+[PASS] 005 - init-missing (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_005_init-missing.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_005_init-missing.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_005_init-missing.actual
+
+[PASS] 006 - init-nonnumeric (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_006_init-nonnumeric.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_006_init-nonnumeric.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_006_init-nonnumeric.actual
+
+[PASS] 007 - init-extra (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_007_init-extra.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_007_init-extra.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_007_init-extra.actual
+
+[PASS] 008 - init-zero (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_008_init-zero.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_008_init-zero.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_008_init-zero.actual
+
+[PASS] 009 - init-negative (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_009_init-negative.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_009_init-negative.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_009_init-negative.actual
+
+[PASS] 010 - alloc-missing (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_010_alloc-missing.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_010_alloc-missing.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_010_alloc-missing.actual
+
+[PASS] 011 - alloc-nonnumeric (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_011_alloc-nonnumeric.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_011_alloc-nonnumeric.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_011_alloc-nonnumeric.actual
+
+[PASS] 012 - alloc-extra (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_012_alloc-extra.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_012_alloc-extra.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_012_alloc-extra.actual
+
+[PASS] 013 - alloc-zero (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_013_alloc-zero.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_013_alloc-zero.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_013_alloc-zero.actual
+
+[PASS] 014 - alloc-negative (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_014_alloc-negative.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_014_alloc-negative.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_014_alloc-negative.actual
+
+[PASS] 015 - free-missing (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_015_free-missing.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_015_free-missing.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_015_free-missing.actual
+
+[PASS] 016 - free-nonnumeric (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_016_free-nonnumeric.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_016_free-nonnumeric.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_016_free-nonnumeric.actual
+
+[PASS] 017 - free-extra (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_017_free-extra.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_017_free-extra.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_017_free-extra.actual
+
+[PASS] 018 - print-extra (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_018_print-extra.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_018_print-extra.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_018_print-extra.actual
+
+[PASS] 019 - stats-extra (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_019_stats-extra.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_019_stats-extra.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_019_stats-extra.actual
+
+[PASS] 020 - strategy-missing (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_020_strategy-missing.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_020_strategy-missing.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_020_strategy-missing.actual
+
+[PASS] 021 - strategy-extra (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_021_strategy-extra.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_021_strategy-extra.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_021_strategy-extra.actual
+
+[PASS] 022 - strategy-unknown (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_022_strategy-unknown.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_022_strategy-unknown.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_022_strategy-unknown.actual
+
+[PASS] 023 - exit-space-not-exit (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_023_exit-space-not-exit.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_023_exit-space-not-exit.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_023_exit-space-not-exit.actual
+
+[PASS] 024 - tab-empty (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_024_tab-empty.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_024_tab-empty.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_024_tab-empty.actual
+
+[PASS] 025 - mixed-case (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_025_mixed-case.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_025_mixed-case.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_025_mixed-case.actual
+
+[PASS] 026 - alloc-before-init (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_026_alloc-before-init.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_026_alloc-before-init.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_026_alloc-before-init.actual
+
+[PASS] 027 - free-before-init (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_027_free-before-init.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_027_free-before-init.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_027_free-before-init.actual
+
+[PASS] 028 - stats-before-init (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_028_stats-before-init.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_028_stats-before-init.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_028_stats-before-init.actual
+
+[PASS] 029 - print-before-init (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_029_print-before-init.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_029_print-before-init.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_029_print-before-init.actual
+
+[PASS] 030 - exact-exit (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_030_exact-exit.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_030_exact-exit.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_030_exact-exit.actual
+
+[PASS] 031 - init-plus (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_031_init-plus.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_031_init-plus.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_031_init-plus.actual
+
+[PASS] 032 - alloc-plus (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_032_alloc-plus.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_032_alloc-plus.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_032_alloc-plus.actual
+
+[PASS] 033 - free-negative-id (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_033_free-negative-id.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_033_free-negative-id.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_033_free-negative-id.actual
+
+[PASS] 034 - free-zero-id (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_034_free-zero-id.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_034_free-zero-id.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_034_free-zero-id.actual
+
+[PASS] 035 - strategy-lowercase (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_035_strategy-lowercase.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_035_strategy-lowercase.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_035_strategy-lowercase.actual
+
+[PASS] 036 - strategy-best-lower (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_036_strategy-best-lower.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_036_strategy-best-lower.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_036_strategy-best-lower.actual
+
+[PASS] 037 - unknown-after-work (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_037_unknown-after-work.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_037_unknown-after-work.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_037_unknown-after-work.actual
+
+[PASS] 038 - init-after-error (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_038_init-after-error.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_038_init-after-error.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_038_init-after-error.actual
+
+[PASS] 039 - alloc-too-large (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_039_alloc-too-large.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_039_alloc-too-large.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_039_alloc-too-large.actual
+
+[PASS] 040 - exact-fit (parser/errors)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_040_exact-fit.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_040_exact-fit.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_040_exact-fit.actual
+
+[PASS] 041 - first-fit-basic-01 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_041_first-fit-basic-01.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_041_first-fit-basic-01.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_041_first-fit-basic-01.actual
+
+[PASS] 042 - first-fit-basic-02 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_042_first-fit-basic-02.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_042_first-fit-basic-02.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_042_first-fit-basic-02.actual
+
+[PASS] 043 - first-fit-basic-03 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_043_first-fit-basic-03.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_043_first-fit-basic-03.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_043_first-fit-basic-03.actual
+
+[PASS] 044 - first-fit-basic-04 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_044_first-fit-basic-04.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_044_first-fit-basic-04.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_044_first-fit-basic-04.actual
+
+[PASS] 045 - first-fit-basic-05 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_045_first-fit-basic-05.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_045_first-fit-basic-05.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_045_first-fit-basic-05.actual
+
+[PASS] 046 - first-fit-basic-06 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_046_first-fit-basic-06.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_046_first-fit-basic-06.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_046_first-fit-basic-06.actual
+
+[PASS] 047 - first-fit-basic-07 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_047_first-fit-basic-07.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_047_first-fit-basic-07.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_047_first-fit-basic-07.actual
+
+[PASS] 048 - first-fit-basic-08 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_048_first-fit-basic-08.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_048_first-fit-basic-08.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_048_first-fit-basic-08.actual
+
+[PASS] 049 - first-fit-basic-09 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_049_first-fit-basic-09.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_049_first-fit-basic-09.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_049_first-fit-basic-09.actual
+
+[PASS] 050 - first-fit-basic-10 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_050_first-fit-basic-10.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_050_first-fit-basic-10.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_050_first-fit-basic-10.actual
+
+[PASS] 051 - first-fit-basic-11 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_051_first-fit-basic-11.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_051_first-fit-basic-11.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_051_first-fit-basic-11.actual
+
+[PASS] 052 - first-fit-basic-12 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_052_first-fit-basic-12.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_052_first-fit-basic-12.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_052_first-fit-basic-12.actual
+
+[PASS] 053 - first-fit-basic-13 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_053_first-fit-basic-13.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_053_first-fit-basic-13.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_053_first-fit-basic-13.actual
+
+[PASS] 054 - first-fit-basic-14 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_054_first-fit-basic-14.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_054_first-fit-basic-14.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_054_first-fit-basic-14.actual
+
+[PASS] 055 - first-fit-basic-15 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_055_first-fit-basic-15.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_055_first-fit-basic-15.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_055_first-fit-basic-15.actual
+
+[PASS] 056 - first-fit-basic-16 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_056_first-fit-basic-16.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_056_first-fit-basic-16.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_056_first-fit-basic-16.actual
+
+[PASS] 057 - first-fit-basic-17 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_057_first-fit-basic-17.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_057_first-fit-basic-17.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_057_first-fit-basic-17.actual
+
+[PASS] 058 - first-fit-basic-18 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_058_first-fit-basic-18.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_058_first-fit-basic-18.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_058_first-fit-basic-18.actual
+
+[PASS] 059 - first-fit-basic-19 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_059_first-fit-basic-19.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_059_first-fit-basic-19.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_059_first-fit-basic-19.actual
+
+[PASS] 060 - first-fit-basic-20 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_060_first-fit-basic-20.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_060_first-fit-basic-20.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_060_first-fit-basic-20.actual
+
+[PASS] 061 - first-fit-basic-21 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_061_first-fit-basic-21.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_061_first-fit-basic-21.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_061_first-fit-basic-21.actual
+
+[PASS] 062 - first-fit-basic-22 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_062_first-fit-basic-22.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_062_first-fit-basic-22.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_062_first-fit-basic-22.actual
+
+[PASS] 063 - first-fit-basic-23 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_063_first-fit-basic-23.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_063_first-fit-basic-23.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_063_first-fit-basic-23.actual
+
+[PASS] 064 - first-fit-basic-24 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_064_first-fit-basic-24.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_064_first-fit-basic-24.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_064_first-fit-basic-24.actual
+
+[PASS] 065 - first-fit-basic-25 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_065_first-fit-basic-25.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_065_first-fit-basic-25.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_065_first-fit-basic-25.actual
+
+[PASS] 066 - first-fit-basic-26 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_066_first-fit-basic-26.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_066_first-fit-basic-26.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_066_first-fit-basic-26.actual
+
+[PASS] 067 - first-fit-basic-27 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_067_first-fit-basic-27.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_067_first-fit-basic-27.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_067_first-fit-basic-27.actual
+
+[PASS] 068 - first-fit-basic-28 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_068_first-fit-basic-28.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_068_first-fit-basic-28.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_068_first-fit-basic-28.actual
+
+[PASS] 069 - first-fit-basic-29 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_069_first-fit-basic-29.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_069_first-fit-basic-29.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_069_first-fit-basic-29.actual
+
+[PASS] 070 - first-fit-basic-30 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_070_first-fit-basic-30.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_070_first-fit-basic-30.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_070_first-fit-basic-30.actual
+
+[PASS] 071 - first-fit-basic-31 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_071_first-fit-basic-31.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_071_first-fit-basic-31.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_071_first-fit-basic-31.actual
+
+[PASS] 072 - first-fit-basic-32 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_072_first-fit-basic-32.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_072_first-fit-basic-32.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_072_first-fit-basic-32.actual
+
+[PASS] 073 - first-fit-basic-33 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_073_first-fit-basic-33.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_073_first-fit-basic-33.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_073_first-fit-basic-33.actual
+
+[PASS] 074 - first-fit-basic-34 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_074_first-fit-basic-34.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_074_first-fit-basic-34.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_074_first-fit-basic-34.actual
+
+[PASS] 075 - first-fit-basic-35 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_075_first-fit-basic-35.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_075_first-fit-basic-35.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_075_first-fit-basic-35.actual
+
+[PASS] 076 - first-fit-basic-36 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_076_first-fit-basic-36.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_076_first-fit-basic-36.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_076_first-fit-basic-36.actual
+
+[PASS] 077 - first-fit-basic-37 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_077_first-fit-basic-37.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_077_first-fit-basic-37.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_077_first-fit-basic-37.actual
+
+[PASS] 078 - first-fit-basic-38 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_078_first-fit-basic-38.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_078_first-fit-basic-38.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_078_first-fit-basic-38.actual
+
+[PASS] 079 - first-fit-basic-39 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_079_first-fit-basic-39.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_079_first-fit-basic-39.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_079_first-fit-basic-39.actual
+
+[PASS] 080 - first-fit-basic-40 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_080_first-fit-basic-40.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_080_first-fit-basic-40.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_080_first-fit-basic-40.actual
+
+[PASS] 081 - first-fit-basic-41 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_081_first-fit-basic-41.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_081_first-fit-basic-41.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_081_first-fit-basic-41.actual
+
+[PASS] 082 - first-fit-basic-42 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_082_first-fit-basic-42.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_082_first-fit-basic-42.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_082_first-fit-basic-42.actual
+
+[PASS] 083 - first-fit-basic-43 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_083_first-fit-basic-43.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_083_first-fit-basic-43.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_083_first-fit-basic-43.actual
+
+[PASS] 084 - first-fit-basic-44 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_084_first-fit-basic-44.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_084_first-fit-basic-44.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_084_first-fit-basic-44.actual
+
+[PASS] 085 - first-fit-basic-45 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_085_first-fit-basic-45.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_085_first-fit-basic-45.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_085_first-fit-basic-45.actual
+
+[PASS] 086 - first-fit-basic-46 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_086_first-fit-basic-46.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_086_first-fit-basic-46.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_086_first-fit-basic-46.actual
+
+[PASS] 087 - first-fit-basic-47 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_087_first-fit-basic-47.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_087_first-fit-basic-47.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_087_first-fit-basic-47.actual
+
+[PASS] 088 - first-fit-basic-48 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_088_first-fit-basic-48.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_088_first-fit-basic-48.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_088_first-fit-basic-48.actual
+
+[PASS] 089 - first-fit-basic-49 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_089_first-fit-basic-49.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_089_first-fit-basic-49.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_089_first-fit-basic-49.actual
+
+[PASS] 090 - first-fit-basic-50 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_090_first-fit-basic-50.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_090_first-fit-basic-50.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_090_first-fit-basic-50.actual
+
+[PASS] 091 - first-fit-basic-51 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_091_first-fit-basic-51.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_091_first-fit-basic-51.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_091_first-fit-basic-51.actual
+
+[PASS] 092 - first-fit-basic-52 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_092_first-fit-basic-52.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_092_first-fit-basic-52.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_092_first-fit-basic-52.actual
+
+[PASS] 093 - first-fit-basic-53 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_093_first-fit-basic-53.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_093_first-fit-basic-53.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_093_first-fit-basic-53.actual
+
+[PASS] 094 - first-fit-basic-54 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_094_first-fit-basic-54.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_094_first-fit-basic-54.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_094_first-fit-basic-54.actual
+
+[PASS] 095 - first-fit-basic-55 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_095_first-fit-basic-55.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_095_first-fit-basic-55.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_095_first-fit-basic-55.actual
+
+[PASS] 096 - first-fit-basic-56 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_096_first-fit-basic-56.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_096_first-fit-basic-56.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_096_first-fit-basic-56.actual
+
+[PASS] 097 - first-fit-basic-57 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_097_first-fit-basic-57.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_097_first-fit-basic-57.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_097_first-fit-basic-57.actual
+
+[PASS] 098 - first-fit-basic-58 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_098_first-fit-basic-58.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_098_first-fit-basic-58.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_098_first-fit-basic-58.actual
+
+[PASS] 099 - first-fit-basic-59 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_099_first-fit-basic-59.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_099_first-fit-basic-59.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_099_first-fit-basic-59.actual
+
+[PASS] 100 - first-fit-basic-60 (first-fit/basic)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_100_first-fit-basic-60.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_100_first-fit-basic-60.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_100_first-fit-basic-60.actual
+
+[PASS] 101 - merge-fragmentation-01 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_101_merge-fragmentation-01.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_101_merge-fragmentation-01.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_101_merge-fragmentation-01.actual
+
+[PASS] 102 - merge-fragmentation-02 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_102_merge-fragmentation-02.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_102_merge-fragmentation-02.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_102_merge-fragmentation-02.actual
+
+[PASS] 103 - merge-fragmentation-03 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_103_merge-fragmentation-03.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_103_merge-fragmentation-03.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_103_merge-fragmentation-03.actual
+
+[PASS] 104 - merge-fragmentation-04 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_104_merge-fragmentation-04.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_104_merge-fragmentation-04.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_104_merge-fragmentation-04.actual
+
+[PASS] 105 - merge-fragmentation-05 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_105_merge-fragmentation-05.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_105_merge-fragmentation-05.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_105_merge-fragmentation-05.actual
+
+[PASS] 106 - merge-fragmentation-06 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_106_merge-fragmentation-06.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_106_merge-fragmentation-06.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_106_merge-fragmentation-06.actual
+
+[PASS] 107 - merge-fragmentation-07 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_107_merge-fragmentation-07.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_107_merge-fragmentation-07.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_107_merge-fragmentation-07.actual
+
+[PASS] 108 - merge-fragmentation-08 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_108_merge-fragmentation-08.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_108_merge-fragmentation-08.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_108_merge-fragmentation-08.actual
+
+[PASS] 109 - merge-fragmentation-09 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_109_merge-fragmentation-09.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_109_merge-fragmentation-09.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_109_merge-fragmentation-09.actual
+
+[PASS] 110 - merge-fragmentation-10 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_110_merge-fragmentation-10.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_110_merge-fragmentation-10.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_110_merge-fragmentation-10.actual
+
+[PASS] 111 - merge-fragmentation-11 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_111_merge-fragmentation-11.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_111_merge-fragmentation-11.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_111_merge-fragmentation-11.actual
+
+[PASS] 112 - merge-fragmentation-12 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_112_merge-fragmentation-12.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_112_merge-fragmentation-12.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_112_merge-fragmentation-12.actual
+
+[PASS] 113 - merge-fragmentation-13 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_113_merge-fragmentation-13.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_113_merge-fragmentation-13.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_113_merge-fragmentation-13.actual
+
+[PASS] 114 - merge-fragmentation-14 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_114_merge-fragmentation-14.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_114_merge-fragmentation-14.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_114_merge-fragmentation-14.actual
+
+[PASS] 115 - merge-fragmentation-15 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_115_merge-fragmentation-15.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_115_merge-fragmentation-15.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_115_merge-fragmentation-15.actual
+
+[PASS] 116 - merge-fragmentation-16 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_116_merge-fragmentation-16.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_116_merge-fragmentation-16.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_116_merge-fragmentation-16.actual
+
+[PASS] 117 - merge-fragmentation-17 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_117_merge-fragmentation-17.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_117_merge-fragmentation-17.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_117_merge-fragmentation-17.actual
+
+[PASS] 118 - merge-fragmentation-18 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_118_merge-fragmentation-18.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_118_merge-fragmentation-18.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_118_merge-fragmentation-18.actual
+
+[PASS] 119 - merge-fragmentation-19 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_119_merge-fragmentation-19.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_119_merge-fragmentation-19.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_119_merge-fragmentation-19.actual
+
+[PASS] 120 - merge-fragmentation-20 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_120_merge-fragmentation-20.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_120_merge-fragmentation-20.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_120_merge-fragmentation-20.actual
+
+[PASS] 121 - merge-fragmentation-21 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_121_merge-fragmentation-21.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_121_merge-fragmentation-21.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_121_merge-fragmentation-21.actual
+
+[PASS] 122 - merge-fragmentation-22 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_122_merge-fragmentation-22.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_122_merge-fragmentation-22.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_122_merge-fragmentation-22.actual
+
+[PASS] 123 - merge-fragmentation-23 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_123_merge-fragmentation-23.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_123_merge-fragmentation-23.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_123_merge-fragmentation-23.actual
+
+[PASS] 124 - merge-fragmentation-24 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_124_merge-fragmentation-24.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_124_merge-fragmentation-24.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_124_merge-fragmentation-24.actual
+
+[PASS] 125 - merge-fragmentation-25 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_125_merge-fragmentation-25.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_125_merge-fragmentation-25.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_125_merge-fragmentation-25.actual
+
+[PASS] 126 - merge-fragmentation-26 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_126_merge-fragmentation-26.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_126_merge-fragmentation-26.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_126_merge-fragmentation-26.actual
+
+[PASS] 127 - merge-fragmentation-27 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_127_merge-fragmentation-27.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_127_merge-fragmentation-27.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_127_merge-fragmentation-27.actual
+
+[PASS] 128 - merge-fragmentation-28 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_128_merge-fragmentation-28.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_128_merge-fragmentation-28.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_128_merge-fragmentation-28.actual
+
+[PASS] 129 - merge-fragmentation-29 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_129_merge-fragmentation-29.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_129_merge-fragmentation-29.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_129_merge-fragmentation-29.actual
+
+[PASS] 130 - merge-fragmentation-30 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_130_merge-fragmentation-30.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_130_merge-fragmentation-30.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_130_merge-fragmentation-30.actual
+
+[PASS] 131 - merge-fragmentation-31 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_131_merge-fragmentation-31.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_131_merge-fragmentation-31.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_131_merge-fragmentation-31.actual
+
+[PASS] 132 - merge-fragmentation-32 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_132_merge-fragmentation-32.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_132_merge-fragmentation-32.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_132_merge-fragmentation-32.actual
+
+[PASS] 133 - merge-fragmentation-33 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_133_merge-fragmentation-33.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_133_merge-fragmentation-33.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_133_merge-fragmentation-33.actual
+
+[PASS] 134 - merge-fragmentation-34 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_134_merge-fragmentation-34.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_134_merge-fragmentation-34.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_134_merge-fragmentation-34.actual
+
+[PASS] 135 - merge-fragmentation-35 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_135_merge-fragmentation-35.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_135_merge-fragmentation-35.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_135_merge-fragmentation-35.actual
+
+[PASS] 136 - merge-fragmentation-36 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_136_merge-fragmentation-36.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_136_merge-fragmentation-36.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_136_merge-fragmentation-36.actual
+
+[PASS] 137 - merge-fragmentation-37 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_137_merge-fragmentation-37.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_137_merge-fragmentation-37.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_137_merge-fragmentation-37.actual
+
+[PASS] 138 - merge-fragmentation-38 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_138_merge-fragmentation-38.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_138_merge-fragmentation-38.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_138_merge-fragmentation-38.actual
+
+[PASS] 139 - merge-fragmentation-39 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_139_merge-fragmentation-39.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_139_merge-fragmentation-39.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_139_merge-fragmentation-39.actual
+
+[PASS] 140 - merge-fragmentation-40 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_140_merge-fragmentation-40.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_140_merge-fragmentation-40.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_140_merge-fragmentation-40.actual
+
+[PASS] 141 - merge-fragmentation-41 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_141_merge-fragmentation-41.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_141_merge-fragmentation-41.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_141_merge-fragmentation-41.actual
+
+[PASS] 142 - merge-fragmentation-42 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_142_merge-fragmentation-42.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_142_merge-fragmentation-42.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_142_merge-fragmentation-42.actual
+
+[PASS] 143 - merge-fragmentation-43 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_143_merge-fragmentation-43.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_143_merge-fragmentation-43.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_143_merge-fragmentation-43.actual
+
+[PASS] 144 - merge-fragmentation-44 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_144_merge-fragmentation-44.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_144_merge-fragmentation-44.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_144_merge-fragmentation-44.actual
+
+[PASS] 145 - merge-fragmentation-45 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_145_merge-fragmentation-45.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_145_merge-fragmentation-45.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_145_merge-fragmentation-45.actual
+
+[PASS] 146 - merge-fragmentation-46 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_146_merge-fragmentation-46.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_146_merge-fragmentation-46.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_146_merge-fragmentation-46.actual
+
+[PASS] 147 - merge-fragmentation-47 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_147_merge-fragmentation-47.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_147_merge-fragmentation-47.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_147_merge-fragmentation-47.actual
+
+[PASS] 148 - merge-fragmentation-48 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_148_merge-fragmentation-48.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_148_merge-fragmentation-48.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_148_merge-fragmentation-48.actual
+
+[PASS] 149 - merge-fragmentation-49 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_149_merge-fragmentation-49.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_149_merge-fragmentation-49.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_149_merge-fragmentation-49.actual
+
+[PASS] 150 - merge-fragmentation-50 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_150_merge-fragmentation-50.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_150_merge-fragmentation-50.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_150_merge-fragmentation-50.actual
+
+[PASS] 151 - merge-fragmentation-51 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_151_merge-fragmentation-51.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_151_merge-fragmentation-51.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_151_merge-fragmentation-51.actual
+
+[PASS] 152 - merge-fragmentation-52 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_152_merge-fragmentation-52.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_152_merge-fragmentation-52.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_152_merge-fragmentation-52.actual
+
+[PASS] 153 - merge-fragmentation-53 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_153_merge-fragmentation-53.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_153_merge-fragmentation-53.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_153_merge-fragmentation-53.actual
+
+[PASS] 154 - merge-fragmentation-54 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_154_merge-fragmentation-54.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_154_merge-fragmentation-54.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_154_merge-fragmentation-54.actual
+
+[PASS] 155 - merge-fragmentation-55 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_155_merge-fragmentation-55.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_155_merge-fragmentation-55.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_155_merge-fragmentation-55.actual
+
+[PASS] 156 - merge-fragmentation-56 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_156_merge-fragmentation-56.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_156_merge-fragmentation-56.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_156_merge-fragmentation-56.actual
+
+[PASS] 157 - merge-fragmentation-57 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_157_merge-fragmentation-57.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_157_merge-fragmentation-57.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_157_merge-fragmentation-57.actual
+
+[PASS] 158 - merge-fragmentation-58 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_158_merge-fragmentation-58.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_158_merge-fragmentation-58.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_158_merge-fragmentation-58.actual
+
+[PASS] 159 - merge-fragmentation-59 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_159_merge-fragmentation-59.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_159_merge-fragmentation-59.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_159_merge-fragmentation-59.actual
+
+[PASS] 160 - merge-fragmentation-60 (merge/fragmentation)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_160_merge-fragmentation-60.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_160_merge-fragmentation-60.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_160_merge-fragmentation-60.actual
+
+[PASS] 161 - strategy-best-fit-01 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_161_strategy-best-fit-01.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_161_strategy-best-fit-01.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_161_strategy-best-fit-01.actual
+
+[PASS] 162 - strategy-best-fit-02 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_162_strategy-best-fit-02.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_162_strategy-best-fit-02.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_162_strategy-best-fit-02.actual
+
+[PASS] 163 - strategy-best-fit-03 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_163_strategy-best-fit-03.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_163_strategy-best-fit-03.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_163_strategy-best-fit-03.actual
+
+[PASS] 164 - strategy-best-fit-04 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_164_strategy-best-fit-04.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_164_strategy-best-fit-04.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_164_strategy-best-fit-04.actual
+
+[PASS] 165 - strategy-best-fit-05 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_165_strategy-best-fit-05.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_165_strategy-best-fit-05.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_165_strategy-best-fit-05.actual
+
+[PASS] 166 - strategy-best-fit-06 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_166_strategy-best-fit-06.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_166_strategy-best-fit-06.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_166_strategy-best-fit-06.actual
+
+[PASS] 167 - strategy-best-fit-07 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_167_strategy-best-fit-07.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_167_strategy-best-fit-07.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_167_strategy-best-fit-07.actual
+
+[PASS] 168 - strategy-best-fit-08 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_168_strategy-best-fit-08.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_168_strategy-best-fit-08.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_168_strategy-best-fit-08.actual
+
+[PASS] 169 - strategy-best-fit-09 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_169_strategy-best-fit-09.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_169_strategy-best-fit-09.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_169_strategy-best-fit-09.actual
+
+[PASS] 170 - strategy-best-fit-10 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_170_strategy-best-fit-10.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_170_strategy-best-fit-10.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_170_strategy-best-fit-10.actual
+
+[PASS] 171 - strategy-best-fit-11 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_171_strategy-best-fit-11.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_171_strategy-best-fit-11.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_171_strategy-best-fit-11.actual
+
+[PASS] 172 - strategy-best-fit-12 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_172_strategy-best-fit-12.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_172_strategy-best-fit-12.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_172_strategy-best-fit-12.actual
+
+[PASS] 173 - strategy-best-fit-13 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_173_strategy-best-fit-13.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_173_strategy-best-fit-13.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_173_strategy-best-fit-13.actual
+
+[PASS] 174 - strategy-best-fit-14 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_174_strategy-best-fit-14.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_174_strategy-best-fit-14.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_174_strategy-best-fit-14.actual
+
+[PASS] 175 - strategy-best-fit-15 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_175_strategy-best-fit-15.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_175_strategy-best-fit-15.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_175_strategy-best-fit-15.actual
+
+[PASS] 176 - strategy-best-fit-16 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_176_strategy-best-fit-16.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_176_strategy-best-fit-16.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_176_strategy-best-fit-16.actual
+
+[PASS] 177 - strategy-best-fit-17 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_177_strategy-best-fit-17.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_177_strategy-best-fit-17.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_177_strategy-best-fit-17.actual
+
+[PASS] 178 - strategy-best-fit-18 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_178_strategy-best-fit-18.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_178_strategy-best-fit-18.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_178_strategy-best-fit-18.actual
+
+[PASS] 179 - strategy-best-fit-19 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_179_strategy-best-fit-19.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_179_strategy-best-fit-19.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_179_strategy-best-fit-19.actual
+
+[PASS] 180 - strategy-best-fit-20 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_180_strategy-best-fit-20.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_180_strategy-best-fit-20.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_180_strategy-best-fit-20.actual
+
+[PASS] 181 - strategy-best-fit-21 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_181_strategy-best-fit-21.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_181_strategy-best-fit-21.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_181_strategy-best-fit-21.actual
+
+[PASS] 182 - strategy-best-fit-22 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_182_strategy-best-fit-22.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_182_strategy-best-fit-22.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_182_strategy-best-fit-22.actual
+
+[PASS] 183 - strategy-best-fit-23 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_183_strategy-best-fit-23.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_183_strategy-best-fit-23.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_183_strategy-best-fit-23.actual
+
+[PASS] 184 - strategy-best-fit-24 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_184_strategy-best-fit-24.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_184_strategy-best-fit-24.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_184_strategy-best-fit-24.actual
+
+[PASS] 185 - strategy-best-fit-25 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_185_strategy-best-fit-25.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_185_strategy-best-fit-25.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_185_strategy-best-fit-25.actual
+
+[PASS] 186 - strategy-best-fit-26 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_186_strategy-best-fit-26.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_186_strategy-best-fit-26.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_186_strategy-best-fit-26.actual
+
+[PASS] 187 - strategy-best-fit-27 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_187_strategy-best-fit-27.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_187_strategy-best-fit-27.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_187_strategy-best-fit-27.actual
+
+[PASS] 188 - strategy-best-fit-28 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_188_strategy-best-fit-28.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_188_strategy-best-fit-28.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_188_strategy-best-fit-28.actual
+
+[PASS] 189 - strategy-best-fit-29 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_189_strategy-best-fit-29.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_189_strategy-best-fit-29.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_189_strategy-best-fit-29.actual
+
+[PASS] 190 - strategy-best-fit-30 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_190_strategy-best-fit-30.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_190_strategy-best-fit-30.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_190_strategy-best-fit-30.actual
+
+[PASS] 191 - strategy-best-fit-31 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_191_strategy-best-fit-31.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_191_strategy-best-fit-31.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_191_strategy-best-fit-31.actual
+
+[PASS] 192 - strategy-best-fit-32 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_192_strategy-best-fit-32.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_192_strategy-best-fit-32.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_192_strategy-best-fit-32.actual
+
+[PASS] 193 - strategy-best-fit-33 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_193_strategy-best-fit-33.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_193_strategy-best-fit-33.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_193_strategy-best-fit-33.actual
+
+[PASS] 194 - strategy-best-fit-34 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_194_strategy-best-fit-34.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_194_strategy-best-fit-34.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_194_strategy-best-fit-34.actual
+
+[PASS] 195 - strategy-best-fit-35 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_195_strategy-best-fit-35.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_195_strategy-best-fit-35.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_195_strategy-best-fit-35.actual
+
+[PASS] 196 - strategy-best-fit-36 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_196_strategy-best-fit-36.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_196_strategy-best-fit-36.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_196_strategy-best-fit-36.actual
+
+[PASS] 197 - strategy-best-fit-37 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_197_strategy-best-fit-37.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_197_strategy-best-fit-37.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_197_strategy-best-fit-37.actual
+
+[PASS] 198 - strategy-best-fit-38 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_198_strategy-best-fit-38.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_198_strategy-best-fit-38.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_198_strategy-best-fit-38.actual
+
+[PASS] 199 - strategy-best-fit-39 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_199_strategy-best-fit-39.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_199_strategy-best-fit-39.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_199_strategy-best-fit-39.actual
+
+[PASS] 200 - strategy-best-fit-40 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_200_strategy-best-fit-40.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_200_strategy-best-fit-40.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_200_strategy-best-fit-40.actual
+
+[PASS] 201 - strategy-best-fit-41 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_201_strategy-best-fit-41.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_201_strategy-best-fit-41.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_201_strategy-best-fit-41.actual
+
+[PASS] 202 - strategy-best-fit-42 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_202_strategy-best-fit-42.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_202_strategy-best-fit-42.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_202_strategy-best-fit-42.actual
+
+[PASS] 203 - strategy-best-fit-43 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_203_strategy-best-fit-43.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_203_strategy-best-fit-43.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_203_strategy-best-fit-43.actual
+
+[PASS] 204 - strategy-best-fit-44 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_204_strategy-best-fit-44.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_204_strategy-best-fit-44.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_204_strategy-best-fit-44.actual
+
+[PASS] 205 - strategy-best-fit-45 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_205_strategy-best-fit-45.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_205_strategy-best-fit-45.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_205_strategy-best-fit-45.actual
+
+[PASS] 206 - strategy-best-fit-46 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_206_strategy-best-fit-46.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_206_strategy-best-fit-46.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_206_strategy-best-fit-46.actual
+
+[PASS] 207 - strategy-best-fit-47 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_207_strategy-best-fit-47.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_207_strategy-best-fit-47.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_207_strategy-best-fit-47.actual
+
+[PASS] 208 - strategy-best-fit-48 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_208_strategy-best-fit-48.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_208_strategy-best-fit-48.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_208_strategy-best-fit-48.actual
+
+[PASS] 209 - strategy-best-fit-49 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_209_strategy-best-fit-49.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_209_strategy-best-fit-49.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_209_strategy-best-fit-49.actual
+
+[PASS] 210 - strategy-best-fit-50 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_210_strategy-best-fit-50.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_210_strategy-best-fit-50.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_210_strategy-best-fit-50.actual
+
+[PASS] 211 - strategy-best-fit-51 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_211_strategy-best-fit-51.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_211_strategy-best-fit-51.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_211_strategy-best-fit-51.actual
+
+[PASS] 212 - strategy-best-fit-52 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_212_strategy-best-fit-52.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_212_strategy-best-fit-52.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_212_strategy-best-fit-52.actual
+
+[PASS] 213 - strategy-best-fit-53 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_213_strategy-best-fit-53.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_213_strategy-best-fit-53.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_213_strategy-best-fit-53.actual
+
+[PASS] 214 - strategy-best-fit-54 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_214_strategy-best-fit-54.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_214_strategy-best-fit-54.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_214_strategy-best-fit-54.actual
+
+[PASS] 215 - strategy-best-fit-55 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_215_strategy-best-fit-55.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_215_strategy-best-fit-55.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_215_strategy-best-fit-55.actual
+
+[PASS] 216 - strategy-best-fit-56 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_216_strategy-best-fit-56.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_216_strategy-best-fit-56.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_216_strategy-best-fit-56.actual
+
+[PASS] 217 - strategy-best-fit-57 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_217_strategy-best-fit-57.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_217_strategy-best-fit-57.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_217_strategy-best-fit-57.actual
+
+[PASS] 218 - strategy-best-fit-58 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_218_strategy-best-fit-58.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_218_strategy-best-fit-58.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_218_strategy-best-fit-58.actual
+
+[PASS] 219 - strategy-best-fit-59 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_219_strategy-best-fit-59.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_219_strategy-best-fit-59.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_219_strategy-best-fit-59.actual
+
+[PASS] 220 - strategy-best-fit-60 (strategy/best-fit)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_220_strategy-best-fit-60.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_220_strategy-best-fit-60.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_220_strategy-best-fit-60.actual
+
+[PASS] 221 - reinit-id-reset-01 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_221_reinit-id-reset-01.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_221_reinit-id-reset-01.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_221_reinit-id-reset-01.actual
+
+[PASS] 222 - reinit-id-reset-02 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_222_reinit-id-reset-02.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_222_reinit-id-reset-02.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_222_reinit-id-reset-02.actual
+
+[PASS] 223 - reinit-id-reset-03 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_223_reinit-id-reset-03.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_223_reinit-id-reset-03.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_223_reinit-id-reset-03.actual
+
+[PASS] 224 - reinit-id-reset-04 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_224_reinit-id-reset-04.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_224_reinit-id-reset-04.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_224_reinit-id-reset-04.actual
+
+[PASS] 225 - reinit-id-reset-05 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_225_reinit-id-reset-05.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_225_reinit-id-reset-05.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_225_reinit-id-reset-05.actual
+
+[PASS] 226 - reinit-id-reset-06 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_226_reinit-id-reset-06.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_226_reinit-id-reset-06.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_226_reinit-id-reset-06.actual
+
+[PASS] 227 - reinit-id-reset-07 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_227_reinit-id-reset-07.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_227_reinit-id-reset-07.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_227_reinit-id-reset-07.actual
+
+[PASS] 228 - reinit-id-reset-08 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_228_reinit-id-reset-08.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_228_reinit-id-reset-08.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_228_reinit-id-reset-08.actual
+
+[PASS] 229 - reinit-id-reset-09 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_229_reinit-id-reset-09.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_229_reinit-id-reset-09.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_229_reinit-id-reset-09.actual
+
+[PASS] 230 - reinit-id-reset-10 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_230_reinit-id-reset-10.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_230_reinit-id-reset-10.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_230_reinit-id-reset-10.actual
+
+[PASS] 231 - reinit-id-reset-11 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_231_reinit-id-reset-11.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_231_reinit-id-reset-11.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_231_reinit-id-reset-11.actual
+
+[PASS] 232 - reinit-id-reset-12 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_232_reinit-id-reset-12.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_232_reinit-id-reset-12.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_232_reinit-id-reset-12.actual
+
+[PASS] 233 - reinit-id-reset-13 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_233_reinit-id-reset-13.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_233_reinit-id-reset-13.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_233_reinit-id-reset-13.actual
+
+[PASS] 234 - reinit-id-reset-14 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_234_reinit-id-reset-14.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_234_reinit-id-reset-14.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_234_reinit-id-reset-14.actual
+
+[PASS] 235 - reinit-id-reset-15 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_235_reinit-id-reset-15.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_235_reinit-id-reset-15.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_235_reinit-id-reset-15.actual
+
+[PASS] 236 - reinit-id-reset-16 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_236_reinit-id-reset-16.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_236_reinit-id-reset-16.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_236_reinit-id-reset-16.actual
+
+[PASS] 237 - reinit-id-reset-17 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_237_reinit-id-reset-17.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_237_reinit-id-reset-17.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_237_reinit-id-reset-17.actual
+
+[PASS] 238 - reinit-id-reset-18 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_238_reinit-id-reset-18.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_238_reinit-id-reset-18.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_238_reinit-id-reset-18.actual
+
+[PASS] 239 - reinit-id-reset-19 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_239_reinit-id-reset-19.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_239_reinit-id-reset-19.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_239_reinit-id-reset-19.actual
+
+[PASS] 240 - reinit-id-reset-20 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_240_reinit-id-reset-20.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_240_reinit-id-reset-20.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_240_reinit-id-reset-20.actual
+
+[PASS] 241 - reinit-id-reset-21 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_241_reinit-id-reset-21.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_241_reinit-id-reset-21.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_241_reinit-id-reset-21.actual
+
+[PASS] 242 - reinit-id-reset-22 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_242_reinit-id-reset-22.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_242_reinit-id-reset-22.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_242_reinit-id-reset-22.actual
+
+[PASS] 243 - reinit-id-reset-23 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_243_reinit-id-reset-23.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_243_reinit-id-reset-23.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_243_reinit-id-reset-23.actual
+
+[PASS] 244 - reinit-id-reset-24 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_244_reinit-id-reset-24.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_244_reinit-id-reset-24.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_244_reinit-id-reset-24.actual
+
+[PASS] 245 - reinit-id-reset-25 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_245_reinit-id-reset-25.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_245_reinit-id-reset-25.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_245_reinit-id-reset-25.actual
+
+[PASS] 246 - reinit-id-reset-26 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_246_reinit-id-reset-26.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_246_reinit-id-reset-26.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_246_reinit-id-reset-26.actual
+
+[PASS] 247 - reinit-id-reset-27 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_247_reinit-id-reset-27.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_247_reinit-id-reset-27.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_247_reinit-id-reset-27.actual
+
+[PASS] 248 - reinit-id-reset-28 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_248_reinit-id-reset-28.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_248_reinit-id-reset-28.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_248_reinit-id-reset-28.actual
+
+[PASS] 249 - reinit-id-reset-29 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_249_reinit-id-reset-29.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_249_reinit-id-reset-29.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_249_reinit-id-reset-29.actual
+
+[PASS] 250 - reinit-id-reset-30 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_250_reinit-id-reset-30.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_250_reinit-id-reset-30.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_250_reinit-id-reset-30.actual
+
+[PASS] 251 - reinit-id-reset-31 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_251_reinit-id-reset-31.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_251_reinit-id-reset-31.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_251_reinit-id-reset-31.actual
+
+[PASS] 252 - reinit-id-reset-32 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_252_reinit-id-reset-32.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_252_reinit-id-reset-32.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_252_reinit-id-reset-32.actual
+
+[PASS] 253 - reinit-id-reset-33 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_253_reinit-id-reset-33.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_253_reinit-id-reset-33.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_253_reinit-id-reset-33.actual
+
+[PASS] 254 - reinit-id-reset-34 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_254_reinit-id-reset-34.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_254_reinit-id-reset-34.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_254_reinit-id-reset-34.actual
+
+[PASS] 255 - reinit-id-reset-35 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_255_reinit-id-reset-35.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_255_reinit-id-reset-35.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_255_reinit-id-reset-35.actual
+
+[PASS] 256 - reinit-id-reset-36 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_256_reinit-id-reset-36.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_256_reinit-id-reset-36.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_256_reinit-id-reset-36.actual
+
+[PASS] 257 - reinit-id-reset-37 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_257_reinit-id-reset-37.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_257_reinit-id-reset-37.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_257_reinit-id-reset-37.actual
+
+[PASS] 258 - reinit-id-reset-38 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_258_reinit-id-reset-38.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_258_reinit-id-reset-38.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_258_reinit-id-reset-38.actual
+
+[PASS] 259 - reinit-id-reset-39 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_259_reinit-id-reset-39.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_259_reinit-id-reset-39.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_259_reinit-id-reset-39.actual
+
+[PASS] 260 - reinit-id-reset-40 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_260_reinit-id-reset-40.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_260_reinit-id-reset-40.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_260_reinit-id-reset-40.actual
+
+[PASS] 261 - reinit-id-reset-41 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_261_reinit-id-reset-41.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_261_reinit-id-reset-41.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_261_reinit-id-reset-41.actual
+
+[PASS] 262 - reinit-id-reset-42 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_262_reinit-id-reset-42.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_262_reinit-id-reset-42.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_262_reinit-id-reset-42.actual
+
+[PASS] 263 - reinit-id-reset-43 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_263_reinit-id-reset-43.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_263_reinit-id-reset-43.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_263_reinit-id-reset-43.actual
+
+[PASS] 264 - reinit-id-reset-44 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_264_reinit-id-reset-44.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_264_reinit-id-reset-44.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_264_reinit-id-reset-44.actual
+
+[PASS] 265 - reinit-id-reset-45 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_265_reinit-id-reset-45.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_265_reinit-id-reset-45.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_265_reinit-id-reset-45.actual
+
+[PASS] 266 - reinit-id-reset-46 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_266_reinit-id-reset-46.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_266_reinit-id-reset-46.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_266_reinit-id-reset-46.actual
+
+[PASS] 267 - reinit-id-reset-47 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_267_reinit-id-reset-47.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_267_reinit-id-reset-47.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_267_reinit-id-reset-47.actual
+
+[PASS] 268 - reinit-id-reset-48 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_268_reinit-id-reset-48.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_268_reinit-id-reset-48.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_268_reinit-id-reset-48.actual
+
+[PASS] 269 - reinit-id-reset-49 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_269_reinit-id-reset-49.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_269_reinit-id-reset-49.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_269_reinit-id-reset-49.actual
+
+[PASS] 270 - reinit-id-reset-50 (reinit/id-reset)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_270_reinit-id-reset-50.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_270_reinit-id-reset-50.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_270_reinit-id-reset-50.actual
+
+[PASS] 271 - long-mixed-01 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_271_long-mixed-01.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_271_long-mixed-01.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_271_long-mixed-01.actual
+
+[PASS] 272 - long-mixed-02 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_272_long-mixed-02.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_272_long-mixed-02.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_272_long-mixed-02.actual
+
+[PASS] 273 - long-mixed-03 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_273_long-mixed-03.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_273_long-mixed-03.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_273_long-mixed-03.actual
+
+[PASS] 274 - long-mixed-04 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_274_long-mixed-04.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_274_long-mixed-04.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_274_long-mixed-04.actual
+
+[PASS] 275 - long-mixed-05 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_275_long-mixed-05.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_275_long-mixed-05.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_275_long-mixed-05.actual
+
+[PASS] 276 - long-mixed-06 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_276_long-mixed-06.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_276_long-mixed-06.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_276_long-mixed-06.actual
+
+[PASS] 277 - long-mixed-07 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_277_long-mixed-07.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_277_long-mixed-07.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_277_long-mixed-07.actual
+
+[PASS] 278 - long-mixed-08 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_278_long-mixed-08.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_278_long-mixed-08.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_278_long-mixed-08.actual
+
+[PASS] 279 - long-mixed-09 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_279_long-mixed-09.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_279_long-mixed-09.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_279_long-mixed-09.actual
+
+[PASS] 280 - long-mixed-10 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_280_long-mixed-10.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_280_long-mixed-10.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_280_long-mixed-10.actual
+
+[PASS] 281 - long-mixed-11 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_281_long-mixed-11.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_281_long-mixed-11.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_281_long-mixed-11.actual
+
+[PASS] 282 - long-mixed-12 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_282_long-mixed-12.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_282_long-mixed-12.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_282_long-mixed-12.actual
+
+[PASS] 283 - long-mixed-13 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_283_long-mixed-13.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_283_long-mixed-13.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_283_long-mixed-13.actual
+
+[PASS] 284 - long-mixed-14 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_284_long-mixed-14.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_284_long-mixed-14.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_284_long-mixed-14.actual
+
+[PASS] 285 - long-mixed-15 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_285_long-mixed-15.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_285_long-mixed-15.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_285_long-mixed-15.actual
+
+[PASS] 286 - long-mixed-16 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_286_long-mixed-16.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_286_long-mixed-16.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_286_long-mixed-16.actual
+
+[PASS] 287 - long-mixed-17 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_287_long-mixed-17.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_287_long-mixed-17.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_287_long-mixed-17.actual
+
+[PASS] 288 - long-mixed-18 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_288_long-mixed-18.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_288_long-mixed-18.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_288_long-mixed-18.actual
+
+[PASS] 289 - long-mixed-19 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_289_long-mixed-19.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_289_long-mixed-19.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_289_long-mixed-19.actual
+
+[PASS] 290 - long-mixed-20 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_290_long-mixed-20.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_290_long-mixed-20.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_290_long-mixed-20.actual
+
+[PASS] 291 - long-mixed-21 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_291_long-mixed-21.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_291_long-mixed-21.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_291_long-mixed-21.actual
+
+[PASS] 292 - long-mixed-22 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_292_long-mixed-22.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_292_long-mixed-22.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_292_long-mixed-22.actual
+
+[PASS] 293 - long-mixed-23 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_293_long-mixed-23.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_293_long-mixed-23.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_293_long-mixed-23.actual
+
+[PASS] 294 - long-mixed-24 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_294_long-mixed-24.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_294_long-mixed-24.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_294_long-mixed-24.actual
+
+[PASS] 295 - long-mixed-25 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_295_long-mixed-25.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_295_long-mixed-25.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_295_long-mixed-25.actual
+
+[PASS] 296 - long-mixed-26 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_296_long-mixed-26.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_296_long-mixed-26.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_296_long-mixed-26.actual
+
+[PASS] 297 - long-mixed-27 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_297_long-mixed-27.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_297_long-mixed-27.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_297_long-mixed-27.actual
+
+[PASS] 298 - long-mixed-28 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_298_long-mixed-28.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_298_long-mixed-28.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_298_long-mixed-28.actual
+
+[PASS] 299 - long-mixed-29 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_299_long-mixed-29.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_299_long-mixed-29.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_299_long-mixed-29.actual
+
+[PASS] 300 - long-mixed-30 (long/mixed)
+Input file:    /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_300_long-mixed-30.in
+Expected file: /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_300_long-mixed-30.expected
+Actual file:   /mnt/c/Users/moham/OneDrive/Desktop/folders/ProjectsForCV/MiniMemoryAllocator/tests_allocator_300_results/cases/test_300_long-mixed-30.actual
+
